@@ -56,7 +56,6 @@ for i in trRows:
     pop = i[3].string
     cities[city] = pop
 
-
 # Saving cities to file
 with open('cities.csv', 'w') as csv:
     for key, value in cities.items():
