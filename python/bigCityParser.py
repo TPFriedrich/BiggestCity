@@ -54,7 +54,7 @@ for f in trTags:
 for i in trRows:
     city = i[1].string
     pop = i[3].string
-    cities[city] = pop
+    cities[city] = pop.strip()
 
 # Saving cities to file
 with open('cities.csv', 'w') as csv:
